@@ -1,6 +1,6 @@
 docker build -t ronaldreeggan/multi-docker-client:latest -t ronaldreeggan/multi-docker-client:$SHA -f ./client/Dockerfile ./client
 docker build -t ronaldreeggan/multi-docker-server:latest -t ronaldreeggan/multi-docker-server:$SHA -f ./server/Dockerfile ./server
-docker build -t ronaldreeggan/multi-docker-worker:latest -t ronaldreeggan/multi-docker-worker:$SHA -f .worker/Dockerfile ./worker
+docker build -t ronaldreeggan/multi-docker-worker:latest -t ronaldreeggan/multi-docker-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push ronaldreeggan/multi-docker-client:latest
 docker push ronaldreeggan/multi-docker-server:latest
