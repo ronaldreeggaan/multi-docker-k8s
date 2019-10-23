@@ -13,7 +13,7 @@ function App() {
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
         </header>
-        <h1>Fib Calculator From KUBERNETES!!</h1>
+        <h1>Fib Calculator Version KUBERNETES!</h1>
         <div>
           <Route exact path="/" component={Fib} />
           <Route path="/otherpage" component={OtherPage} />
